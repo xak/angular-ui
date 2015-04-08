@@ -1,0 +1,17 @@
+{
+  "name": "angular-ui",
+  "version": "0.0.1",
+  "authors": [
+    "zack Frazier <zfrazier@gmail.com>"
+  ],
+  "description": "Angular UI Sample Project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower",
+    "test",
+    "tests"
+  ]
+}
