@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '–g', 'protractor' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json karma-chrome-launcher@0.1.7 No README data
+5 warn package.json karma-firefox-launcher@0.1.4 No README data
+6 silly cache add args [ '–g', null ]
+7 verbose cache add spec –g
+8 silly cache add args [ 'protractor', null ]
+9 verbose cache add spec protractor
+10 silly cache add parsed spec { raw: '–g',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: '–g',
+10 silly cache add   spec: '/Users/zackfrazier/Workspace/angular-ui/–g',
+10 silly cache add   type: 'local' }
+11 silly cache add parsed spec { raw: 'protractor',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'protractor',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 verbose addNamed protractor@*
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange *
+15 silly addNameRange { name: 'protractor', range: '*', hasData: false }
+16 silly mapToRegistry name protractor
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/protractor
+20 verbose addNameRange registry:https://registry.npmjs.org/protractor not in flight; fetching
+21 error addLocal Could not install /Users/zackfrazier/Workspace/angular-ui/–g
+22 verbose request uri https://registry.npmjs.org/protractor
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 4:30:32 PM
+25 verbose request id 9dd250361b6ef02f
+26 verbose etag "1PNTHI70I1313X5B7IOZT88A0"
+27 http request GET https://registry.npmjs.org/protractor
+28 http 304 https://registry.npmjs.org/protractor
+29 silly get cb [ 304,
+29 silly get   { date: 'Wed, 08 Apr 2015 21:30:31 GMT',
+29 silly get     server: 'Apache',
+29 silly get     via: '1.1 varnish',
+29 silly get     'last-modified': 'Wed, 08 Apr 2015 21:30:31 GMT',
+29 silly get     'cache-control': 'max-age=60',
+29 silly get     etag: '"1PNTHI70I1313X5B7IOZT88A0"',
+29 silly get     age: '28',
+29 silly get     'x-served-by': 'cache-dfw1828-DFW',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1428528631.959920,VS0,VE0',
+29 silly get     vary: 'Accept',
+29 silly get     'content-length': '0',
+29 silly get     'keep-alive': 'timeout=10, max=50',
+29 silly get     connection: 'Keep-Alive' } ]
+30 verbose etag https://registry.npmjs.org/protractor from cache
+31 verbose get saving protractor to /Users/zackfrazier/.npm/registry.npmjs.org/protractor/.cache.json
+32 silly addNameRange number 2 { name: 'protractor', range: '*', hasData: true }
+33 silly addNameRange versions [ 'protractor',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.1.3',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.5.0',
+33 silly addNameRange     '0.6.1',
+33 silly addNameRange     '0.7.0',
+33 silly addNameRange     '0.8.0',
+33 silly addNameRange     '0.9.0',
+33 silly addNameRange     '0.10.0',
+33 silly addNameRange     '0.11.0',
+33 silly addNameRange     '0.12.0',
+33 silly addNameRange     '0.12.1',
+33 silly addNameRange     '0.13.0',
+33 silly addNameRange     '0.14.0',
+33 silly addNameRange     '0.15.0',
+33 silly addNameRange     '0.16.0',
+33 silly addNameRange     '0.16.1',
+33 silly addNameRange     '0.17.0',
+33 silly addNameRange     '0.18.0',
+33 silly addNameRange     '0.18.1',
+33 silly addNameRange     '0.19.0',
+33 silly addNameRange     '0.20.0',
+33 silly addNameRange     '0.20.1',
+33 silly addNameRange     '0.21.0',
+33 silly addNameRange     '0.22.0',
+33 silly addNameRange     '0.23.0',
+33 silly addNameRange     '0.23.1',
+33 silly addNameRange     '0.24.0',
+33 silly addNameRange     '0.24.1',
+33 silly addNameRange     '0.24.2',
+33 silly addNameRange     '1.0.0-rc1',
+33 silly addNameRange     '1.0.0-rc2',
+33 silly addNameRange     '1.0.0-rc3',
+33 silly addNameRange     '1.0.0-rc4',
+33 silly addNameRange     '1.0.0-rc5',
+33 silly addNameRange     '1.0.0-rc6',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.1.0',
+33 silly addNameRange     '1.1.1',
+33 silly addNameRange     '1.2.0-beta1',
+33 silly addNameRange     '1.2.0',
+33 silly addNameRange     '1.3.0',
+33 silly addNameRange     '1.3.1',
+33 silly addNameRange     '1.4.0',
+33 silly addNameRange     '1.5.0',
+33 silly addNameRange     '1.6.0',
+33 silly addNameRange     '1.6.1',
+33 silly addNameRange     '1.7.0',
+33 silly addNameRange     '1.8.0',
+33 silly addNameRange     '2.0.0' ] ]
+34 verbose addNamed protractor@2.0.0
+35 silly addNamed semver.valid 2.0.0
+36 silly addNamed semver.validRange 2.0.0
+37 silly cache afterAdd protractor@2.0.0
+38 verbose afterAdd /Users/zackfrazier/.npm/protractor/2.0.0/package/package.json not in flight; writing
+39 verbose afterAdd /Users/zackfrazier/.npm/protractor/2.0.0/package/package.json written
+40 verbose stack Error: ENOENT, open '/Users/zackfrazier/Workspace/angular-ui/–g'
+40 verbose stack     at Error (native)
+41 verbose cwd /Users/zackfrazier/Workspace/angular-ui
+42 error Darwin 14.1.0
+43 error argv "node" "/usr/local/bin/npm" "install" "–g" "protractor"
+44 error node v0.12.0
+45 error npm  v2.5.1
+46 error path /Users/zackfrazier/Workspace/angular-ui/–g
+47 error code ENOENT
+48 error errno -2
+49 error enoent ENOENT, open '/Users/zackfrazier/Workspace/angular-ui/–g'
+49 error enoent This is most likely not a problem with npm itself
+49 error enoent and is related to npm not being able to find a file.
+50 verbose exit [ -2, true ]
