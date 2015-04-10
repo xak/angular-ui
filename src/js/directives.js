@@ -1,6 +1,6 @@
 'use strict';
-angular.module('myApp.directives', [])
-.directive('helloWorld', function () {
+
+angular.module('myApp.directives', []).directive('helloWorld', function () {
     return {
         restrict: 'AE',
         scope: { name: "=name" },

@@ -1,1 +1,3 @@
-h1.Hellz yeah, Angular!
+# Angular UI Examples
+
+> http-server -a localhost -p 8000
