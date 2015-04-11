@@ -7,9 +7,9 @@ module.exports = function(grunt) {
       },
       dist: {
 			//src: ['src/js/vendor/*.js','src/js/*.js'],
-			src: ['src/bower_components/jquery/dist/jquery.min.js',
-						'src/bower_components/angular/angular.min.js', 
-						'src/bower_components/angular-ui-utils/ui-utils.min.js', 
+			src: ['src/bower_components/jquery/dist/jquery.js',
+						'src/bower_components/angular/angular.js', 
+						'src/bower_components/angular-ui-utils/ui-utils.js', 
 						'src/bower_components/ng-grid/ng-grid-2.0.14.min.js', 
 						'src/js/app.js',
 						'src/js/services.js',
