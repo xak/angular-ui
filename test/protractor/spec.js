@@ -1,9 +1,10 @@
 describe('hello world app', function() {
   it('should have a title', function() {
     browser.get('http://localhost:8000/src/');
-    expect(browser.getTitle()).toEqual('Angular UI Template');
+    expect(browser.getTitle()).toEqual('Angular UI Seed');
   });
 });
+/*
 describe('name fields', function() {
     it('should be filled out and editable', function() {
         browser.get('http://localhost:8000/src/');
@@ -23,3 +24,4 @@ describe('name fields', function() {
         expect(lname.getAttribute('value')).toEqual("Smith");
   });
 });
+*/
