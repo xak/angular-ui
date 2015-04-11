@@ -1,5 +1,5 @@
 {
-  "name": "angular-ui-utils",
+  "name": "angular-ui-seed",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "^0.4.5",

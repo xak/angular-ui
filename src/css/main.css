@@ -12,3 +12,18 @@ body {
 .spacer-lg {
     margin-top: 30px;
 }
+
+.grid {
+    border: 1px solid #999;
+    max-width: 500px;
+    height: 600px;
+}
+
+.grid-detail {
+    max-width: 500px;
+}
+
+label textarea{
+    vertical-align: middle;
+    width: 100%;
+}
